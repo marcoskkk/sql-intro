@@ -1,5 +1,9 @@
 -- What were the three worst seasons ever? (Least number of wins)
 
+SELECT year, name, wins, losses
+order by wins asc
+LIMIT 3;
+
 -- Expected result:
 --
 -- +------+----------------------+------+--------+

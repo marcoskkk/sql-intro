@@ -1,6 +1,8 @@
 -- Can I see a list of all teams by year, along with the number 
 -- of wins the team had that year?
 
+SELECT year, name, wins FROM teams  order by wins;
+
 -- Expected result: 2955 rows, ending with
 --
 -- | 2018 | Boston Red Sox                    | 108  |
